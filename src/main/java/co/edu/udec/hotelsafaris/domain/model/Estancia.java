@@ -36,7 +36,7 @@ public class Estancia {
         this.actividadesContratadas = new ArrayList<>();
     }
 
-  
+    
     public void contratarActividad(Actividad actividad) {
         if (!this.activa) {
             throw new EstanciaException("No se pueden contratar actividades en una estancia ya finalizada.");
